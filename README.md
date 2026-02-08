@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import iterSin from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-special-sin@esm/index.mjs';
+import iterSin from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-special-sin@v0.2.3-esm/index.mjs';
 ```
 
 #### iterSin( iterator )
@@ -115,7 +115,7 @@ The returned [iterator][mdn-iterator-protocol] protocol-compliant object has the
 <script type="module">
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-iter-randu@esm/index.mjs';
-import iterSin from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-special-sin@esm/index.mjs';
+import iterSin from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-special-sin@v0.2.3-esm/index.mjs';
 
 // Create a seeded iterator for generating pseudorandom numbers:
 var rand = randu({
